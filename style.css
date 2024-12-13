@@ -1,0 +1,243 @@
+/* the 100vh and 100vw set the size of the body to fill the viewport (screen) */
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("pictures/parlor.jpg"); /* Replace with the path to your image */
+  background-size: cover; /* Ensure the image covers the entire viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 100vh; /* Make sure the background covers the full height of the viewport */
+  margin: 0; /* Remove default margin */
+}
+
+.hidden {
+  display: none;
+}
+/*
+.clickable1 {
+  background-color: #fa87b3;
+}
+*/
+.clickable1:hover {
+  cursor: pointer;
+  filter: brightness(100%) drop-shadow(2px 8px 3px);
+  transform: scale(1.04);
+}
+
+/* classes to specify color */
+.top /*TOP*/ {
+  height: 15%;
+  width: 100%;
+  display: block;
+}
+.big /*BIG*/ {
+  height: 85%;
+  width: 100%;
+  display: flex;
+}
+.box11 /*DIV11*/ {
+  height: 100%;
+  width: 100%;
+}
+.box22 /*DIV22*/ {
+  height: 100%;
+  width: 70%;
+}
+.box33 /*DIV33*/ {
+  height: 100%;
+  width: 30%;
+}
+
+.back /*BIG*/ {
+  height: 80%;
+  width: 80%;
+  display: block;
+}
+
+.toppings /*box2*/ {
+  height: 30%;
+  width: 100%;
+  display: flex;
+}
+
+.toppingb /*box2*/ {
+  height: 100%;
+  width: 25%;
+  display: flex;
+}
+
+.icecream /*box2*/ {
+  height: 40%;
+  width: 100%;
+  display: flex;
+}
+
+.icecreamb /*box2*/ {
+  height: 100%;
+  width: 20%;
+}
+.scoop-holder {
+  height: 65%;
+  width: 100%;
+  background-color: #f0abc5;
+}
+.side-holder {
+  height: 65%;
+  width: 70%;
+  background-color: #f0abc5;
+}
+
+.cuporcone {
+  height: 30%;
+  width: 100%;
+  display: flex;
+}
+
+.sidebox {
+  height: 80%;
+  width: 60%;
+  display: ;
+}
+
+.cupCone {
+  height: 100%;
+  width: 30%;
+}
+.textcoc {
+  height: 100%;
+  width: 40%;
+}
+
+.toppingsside {
+  height: 25%;
+  width: 100%;
+}
+.icecreamside {
+  height: 35%;
+  width: 100%;
+}
+.cuporconeside {
+  height: 30%;
+  width: 100%;
+}
+.finish {
+  height: 10%;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  body {
+    height: 120%;
+    width: 100%;
+    margin: 0;
+    background-image: url("pictures/creamBA.webp"); /* Replace with the path to your image */
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Make sure the background covers the full height of the viewport */
+    margin: 0; /* Remove default margin */
+  }
+  .top {
+    display: block;
+    height: 20%;
+    width: 100%;
+    margin: 0;
+  }
+  .big {
+    display: block;
+    height: 80%;
+    width: 100%;
+    margin: 0;
+  }
+  .box22 /*DIV22*/ {
+    height: 50%;
+    width: 100%;
+  }
+  .box33 /*DIV22*/ {
+    height: 200%;
+    width: 100%;
+    display: flex;
+  }
+  .toppingsside {
+    height: 25%;
+    width: 100%;
+  }
+  .icecreamside {
+    height: 25%;
+    width: 100%;
+  }
+  .cuporconeside {
+    height: 25%;
+    width: 100%;
+  }
+  .finish {
+    height: 25%;
+    width: 100%;
+  }
+}
+
+img {
+  max-height: 80%;
+  max-width: 80%;
+  display: flex;
+}
+
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.transparent {
+  opacity: 0.5;
+}
+
+/* classes to specify color */
+.green {
+  background-color: #008d24;
+}
+.blue {
+  background-color: #0b69c0;
+}
+.purple {
+  background-color: #3a246d;
+}
+.red {
+  background-color: #ca1b22;
+}
+.orange {
+  background-color: #ea6626;
+}
+.black {
+  background-color: #000000;
+}
+.white {
+  background-color: #ffffff;
+}
+.light-grey {
+  background-color: #a9a9a9;
+}
+.dark-grey {
+  background-color: #707070;
+}
+.almond {
+  background-color: #ecb35d;
+}
+.almondwhite {
+  background-color: #f0d6af;
+}
+
+.lime {
+  background-color: #00ff00;
+}
+.turquoise {
+  background-color: #40e0d0;
+}
+.cyan {
+  background-color: #008b8b;
+}
+.chocolate {
+  background-color: #7c4015;
+}
+.pink {
+  background-color: #fa87b3;
+}

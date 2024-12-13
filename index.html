@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- make sure you LINK the HTML and CSS files together -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Layout Challenge</title>
+  </head>
+  <body>
+    <!-- TOP -->
+    <div class="top center-content">
+      <img src="pictures/makeyourown.png" />
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="big">
+      <!-- LEFT HALF -->
+      <div class="box22">
+        <!-- TOPPINGS ROW -->
+        <div class="toppings center-content">
+          <div class="toppingb center-content">
+            <div class="scoop-holder center-content">
+              <img
+                src="pictures/sprinkles.png"
+                class="clickable1"
+                onclick="toppingSprinkle()"
+              />
+            </div>
+          </div>
+          <div class="toppingb center-content">
+            <div class="scoop-holder center-content">
+              <img
+                src="pictures/chocosyrup.png"
+                class="clickable1"
+                onclick="toppingChocol()"
+              />
+            </div>
+          </div>
+          <div class="toppingb center-content">
+            <div class="scoop-holder center-content">
+              <img
+                src="pictures/gummybears.png"
+                class="clickable1"
+                onclick="toppingGummi()"
+              />
+            </div>
+          </div>
+          <div class="toppingb center-content">
+            <div class="scoop-holder center-content">
+              <img
+                src="pictures/marshmellows.png"
+                class="clickable1"
+                onclick="toppingMarshies()"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- ICE CREAM ROW -->
+        <div class="icecream center-content">
+          <div class="icecreamb center-content">
+            <div class="scoop-holder center-content">
+              <img
+                src="pictures/vanilla.png"
+                class="clickable1"
+                onclick="iceCreamVanilla()"
+              />
+            </div>
+          </div>
+          <div class="icecreamb center-content">
+            <div class="scoop-holder center-content">
+              <img
+                src="pictures/mintc.png"
+                class="clickable1"
+                onclick="iceCreamMint()"
+              />
+            </div>
+          </div>
+          <div class="icecreamb center-content">
+            <div class="scoop-holder center-content">
+              <img
+                src="pictures/newcookiecreamc.png"
+                class="clickable1"
+                onclick="iceCreamCookies()"
+              />
+            </div>
+          </div>
+          <div class="icecreamb center-content">
+            <div class="scoop-holder center-content">
+              <img
+                src="pictures/cherry.png"
+                class="clickable1"
+                onclick="iceCreamCherry()"
+              />
+            </div>
+          </div>
+          <div class="icecreamb center-content">
+            <div class="scoop-holder center-content">
+              <img
+                src="pictures/monsterc.png"
+                class="clickable1"
+                onclick="iceCreamMonster()"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- CUP OR CONE ROW -->
+        <div class="cuporcone">
+          <div class="cupCone center-content">
+            <div class="scoop-holder center-content">
+              <img
+                src="pictures/cup.png"
+                class="clickable1"
+                onclick="holderCup()"
+              />
+            </div>
+          </div>
+          <div class="textcoc center-content">
+            <img src="pictures/cuporcone.png" />
+          </div>
+          <div class="cone center-content">
+            <div class="scoop-holder center-content">
+              <img
+                src="pictures/cone.png"
+                class="clickable1"
+                onclick="holderCone()"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT HALF -->
+      <div class="box33">
+        <div class="toppingsside center-content">
+          <div class="side-holder center-content">
+            <img src="pictures/newbaskin.png" id="topping-display" />
+          </div>
+        </div>
+        <div class="icecreamside center-content">
+          <div class="side-holder center-content">
+            <img src="pictures/newbaskin.png" id="nieve-display" />
+          </div>
+        </div>
+        <div class="cuporconeside center-content">
+          <div class="side-holder center-content">
+            <img src="pictures/newbaskin.png" id="holderz-display" />
+          </div>
+        </div>
+        <div class="finish center-content">
+          <img
+            src="pictures/EAT.png"
+            class="clickable1"
+            onclick="startOver()"
+            id="nom"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+    <audio src="audio/audio.mp3" id="my-click"></audio>
+    <audio
+      src="audio/videoplayback.mp3"
+      type="audio/mp3"
+      id="sprinkleeffect"
+    ></audio>
+    <audio src="audio/slurp.mp3" type="audio/mp3" id="slurpeffect"></audio>
+    <audio src="audio/jump.mp3" type="audio/mp3" id="thudeffect"></audio>
+  </body>
+</html>
